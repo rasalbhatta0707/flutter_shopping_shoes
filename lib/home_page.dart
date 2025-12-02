@@ -96,6 +96,10 @@ class _HomePageState extends State<HomePage> {
               leading: Icon(Icons.contact_mail, color: Colors.white,),
               title: Text('Contact Us', style: TextStyle(color: Colors.white),),
             ),
+            ListTile(
+              leading: Icon(Icons.logout, color: Colors.white,),
+              title: Text('Logout', style: TextStyle(color: Colors.white),),
+            ),  
           ],
         ),
       ),
